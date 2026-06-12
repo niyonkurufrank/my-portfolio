@@ -1,0 +1,107 @@
+*,
+::before{
+    margin: 0;
+    padding: 0;
+}
+::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #464242;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-container {
+    background-color: #464242;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#menu-container{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+#logo-photo{
+    width: 100px;
+    height: 100px;
+}
+#home-menu{
+    text-decoration: underline;
+}
+#hire-me-container{
+    background-color: transparent;
+    border-radius: 30px;
+}
+#hire-me-container button{
+    padding:7px 20px;
+    border-radius: 10px;
+    transition:all;
+    background-color: transparent;   
+}
+#hire-me-button{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+#body {
+    background-color: #464242;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+#text-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vh;
+}
+
+#hello-line {
+    color: #FF9E02;
+    margin-bottom: 5px;
+}
+
+#name-line {
+    color: white;
+}
+
+#discribution {
+    color: white;
+    margin-bottom: 100px;
+}
+
+#resume {
+    color: white;
+    border: white solid 1px;
+    width: 100px;
+    font-size: small;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 5px;
+    margin-bottom: 100px;
+}
+
+i {
+    color: white;
+}
+
+#play {
+    color: white;
+    font-size: 50px;
+}
+
+#image {
+    width: 700px;
+    height: 700px;
+    /* margin-left: 100px; */
+}

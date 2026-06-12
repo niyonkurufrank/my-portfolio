@@ -1,0 +1,165 @@
+*,
+::before{
+    margin: 0;
+    padding: 0;
+}
+::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #464242;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-container {
+    background-color: #464242;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#menu-container{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+#logo-photo{
+    width: 100px;
+    height: 100px;
+}
+#contact-menu{
+    text-decoration: underline;
+}
+#hire-me-container{
+    background-color: transparent;
+    border-radius: 30px;
+}
+#hire-me-container button{
+    padding:7px 20px;
+    border-radius: 10px;
+    transition:all;
+    background-color: transparent;   
+}
+#hire-me-button{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+#body {
+    background-color: #464242;
+    display: flex;
+    text-align: top;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+h1{
+    color: #FF9E02;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: #FF9E02;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#paragraph {
+    color: white;
+    margin-bottom: 20vh;
+}
+
+p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+#social-media i{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 5vh;
+    margin-bottom: 40px;
+}
+
+#email i{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#social {
+    background-color: black;
+}
+
+#play {
+    color: white;
+    font-size: 50px;
+    margin-top: 10vh;
+}
+
+.name {
+    display: flex;
+    gap: 20vh;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#name-input {
+    background: transparent;
+    border: white solid 1px;
+}
+
+#email-input {
+    width: 57vh;
+    background-color: transparent;
+    border: white solid 1px;
+    margin-bottom: 20px;
+}
+
+#message-input {
+    background: transparent;
+    border: white solid 1px;
+    width: 57vh;
+    height: 20vh;
+}
+
+#send-container {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: end;
+}
+
+#send-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 35px;
+    transition: all;
+    background: #FF9E02;
+    width: 20px;
+    margin-top: 20px;
+}
+
+#send-button {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+}
+

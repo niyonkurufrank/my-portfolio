@@ -1,0 +1,156 @@
+*,
+::before{
+    margin: 0;
+    padding: 0;
+}
+::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #464242;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-container {
+    background-color: #464242;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#menu-container{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+#logo-photo{
+    width: 100px;
+    height: 100px;
+}
+#about-menu{
+    text-decoration: underline;
+}
+#hire-me-container{
+    background-color: transparent;
+    border-radius: 30px;
+}
+#hire-me-container button{
+    padding:7px 20px;
+    border-radius: 10px;
+    transition:all;
+    background-color: transparent;   
+}
+#hire-me-button{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+}
+#about-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 35vh;
+    margin-bottom: 20px;
+    background: #FB9C16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#names{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    top:0px
+}
+.about-circle{
+    font-weight:lighter;
+    color: white;
+    font-size: x-large;
+    padding-left: 8vh;
+}
+#photo{
+    width: 35vh;
+    height: 35vh;
+    background: #DD9521;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70%;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    
+}
+#circle-image{
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #DD9521;
+    /* padding: 8%; */
+    background: #DD9521;
+    /* box-shadow: 0 10px 25px; */
+    border-radius: 50%;
+   
+}
+#container-1{
+    display: flex;
+    margin-bottom: 20vh;
+}
+#container-2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 45vh;
+}
+#discribution{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+#play {
+    color: white;
+    font-size: 50px;
+}
+#social-medias{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    color: white;
+}
+p{
+    color: white;
+}
+span{
+    color: white;
+}
+#names{
+}
+h1{
+    color: white;
+    font-size: 10vh;
+}
+h6{
+    color: white;
+}
+#nf{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+}
+#dot{
+    color: #DD9521;
+}
