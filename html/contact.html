@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title>
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../responsive/contact.css">
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">"
 </head>
 <body>
@@ -34,24 +35,24 @@
             <div id="boxes-container">
                 <div class="boxes">
                     <div class="names">
-                        <div class="name">
-                            <p class="name">first name</p>
-                            <p class="post">last name</p>
-                        </div>
                         <div class="inputs">
-                            <input type="text" id="name-input" placeholder="Enter your first name">
-                            <input type="text" id="name-input" placeholder="Enter your last name">
+                            <label for="name-input">first name
+                              <input type="text" id="name-input" placeholder="Enter your first name">
+                            </label>
+                            <label for="name-input">last name
+                                <input type="text" id="name-input" placeholder="Enter your last name">
+                            </label>
                         </div>  
                     </div>
                     <div class="email">
-                        <p class="name">email</p>
-                        <div class="email-input">
-                            <input type="email" id="email-input" placeholder="Enter your email">
-                        </div>
+                        <label for="email-input">email
+                          <input type="email" id="email-input" placeholder="Enter your email">
+                        </label>
                     </div>
                     <div class="message">
-                        <p class="name">message</p>
-                        <textarea id="message-input" placeholder="Enter your message"></textarea>
+                        <label for="message-input">message
+                            <textarea id="message-input" placeholder="Enter your message"></textarea>
+                        </label>
                     </div>
                     <div id="send-container">
                         <button id="send-button">send</button>

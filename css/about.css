@@ -58,7 +58,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-left: 35vh;
+    margin-left: 15%;
     margin-bottom: 20px;
     background: #FB9C16;
     display: flex;
@@ -79,39 +79,34 @@ body{
     padding-left: 8vh;
 }
 #photo{
-    width: 35vh;
-    height: 35vh;
+    width: 40%;
+    height: 40%;
     background: #DD9521;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 70%;
-    margin-left: 20vh;
-    margin-right: 20vh;
-    
+    border-radius: 50%;    
 }
 #circle-image{
-    width: 40vh;
-    height: 40vh;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
     border: 1px solid #DD9521;
-    /* padding: 8%; */
     background: #DD9521;
-    /* box-shadow: 0 10px 25px; */
     border-radius: 50%;
    
 }
 #container-1{
     display: flex;
     margin-bottom: 20vh;
+    gap: 5vh;
 }
 #container-2{
     display: flex;
     flex-direction: row;
-    align-items: start;
-    justify-content: start;
-    gap: 45vh;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100%;
+    margin-bottom: 5vh;
 }
 #discribution{
     display: flex;
