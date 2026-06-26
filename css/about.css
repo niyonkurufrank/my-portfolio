@@ -104,7 +104,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 100%;
     margin-bottom: 5vh;
 }
@@ -148,4 +148,75 @@ h6{
 }
 #dot{
     color: #DD9521;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+::after {
+    margin: 0;
+    padding: 0;
+}
+#table-continer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh
+}
+table{
+    width: 100%;
+    border: 1px solid rgba(117, 112, 112, 0.5);
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius:15px;
+    background:#DD9521;
+    color: white;
+}
+#title {
+    align-items: center;
+    font-size: 5vh;
+}
+table {
+    width: 90%;
+    border: 1px solid rgba(117, 112, 112, 0.541);
+    border-collapse: collapse;
+    
+}
+th{
+    background: linear-gradient(
+        90deg,
+        #6d28d9,
+        #7c3aed,
+    );
+    text-align: left;
+    border: 1px solid rgba(68, 67, 67, 0.507);
+    padding: 18px;
+    color: white;
+    font-size: 20px;
+}
+td {
+    border-top: 1px solid rgb(110, 109, 109);
+    color: white;
+    padding: 18px;
+    text-align: center;
+    border-right: 1px solid rgb(110, 109, 109);
+}
+td:first-child {
+    text-align:left;
+    font-weight:bold;
+    padding-left: 30px;
+    border-right: 1px solid rgb(110, 109, 109);
+}
+tr:hover {
+    background: #7e5411;
+}
+i {
+    padding-right: 10px;
+}
+#git {
+    color:#DD9521
 }
