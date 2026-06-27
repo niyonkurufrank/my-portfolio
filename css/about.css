@@ -173,7 +173,7 @@ table{
     border-collapse: collapse;
     overflow: hidden;
     border-radius:15px;
-    background:#DD9521;
+    background:#db9d38;
     color: white;
 }
 #title {
@@ -194,14 +194,14 @@ th{
     );
     text-align: left;
     border: 1px solid rgba(68, 67, 67, 0.507);
-    padding: 18px;
+    padding: 10px;
     color: white;
     font-size: 20px;
 }
 td {
     border-top: 1px solid rgb(110, 109, 109);
     color: white;
-    padding: 18px;
+    padding: 10px;
     text-align: center;
     border-right: 1px solid rgb(110, 109, 109);
 }
@@ -218,5 +218,5 @@ i {
     padding-right: 10px;
 }
 #git {
-    color:#DD9521
+    color:#9b8158
 }
