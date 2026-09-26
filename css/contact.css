@@ -50,6 +50,10 @@ body{
     color: white;
 }
 
+#hire-me-button:hover {
+    background: rgb(71, 128, 128);
+}
+
 #body {
     background-color: #464242;
     display: flex;

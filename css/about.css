@@ -48,6 +48,11 @@ body{
     border: 3px solid white;
     color: white;
 }
+
+#hire-me-button:hover {
+    background: rgb(71, 128, 128);
+}
+
 #body{
     display: flex;
     flex-direction: column;
@@ -120,11 +125,16 @@ body{
 #social-medias{
     display: flex;
     flex-direction: column;
+    gap: 5px;
     text-decoration: underline;
     color: white;
 }
 p{
     color: white;
+}
+
+#play-icon:hover {
+    background: aqua;
 }
 span{
     color: white;
