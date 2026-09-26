@@ -32,6 +32,7 @@ body{
 }
 #contact-menu{
     text-decoration: underline;
+    cursor: pointer;
 }
 #hire-me-container{
     background-color: transparent;
@@ -168,3 +169,34 @@ label{
     color: white;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+#contact-menu{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(117, 117, 247);
+}
+
+#about-menu {
+    cursor: pointer;
+}
+
+#about-menu:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+#home-menu {
+    cursor: pointer;
+}
+
+#home-menu:hover {
+    color: blue;
+    font-weight: bold;
+}
